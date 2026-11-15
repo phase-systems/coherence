@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PROPERTIES>
+  <VALUE name="PROFILE_DETAILS">
+    <Details HostedPluginName="COHERENCE" HostedPluginId="4e7d75a3" IsFactoryProfile="0"
+             LinkPluginName="SSL 360 Link" PluginVersion="10408"/>
+  </VALUE>
+  <VALUE name="HighMidEqGain">
+    <LINK_PARAM LinkParamIndex="11" LinkParamId="HighMidEqGain" LinkParamName="HMF Gain"
+                LinkParamLegend="HMF Gain" LinkInverted="0">
+      <HOSTED_PARAM HostedParamIndex="9" HostedParamId="1828374781" HostedParamName="HMF Gain"/>
+    </LINK_PARAM>
+  </VALUE>
+  <VALUE name="HighMidEqFreq">
+    <LINK_PARAM LinkParamIndex="12" LinkParamId="HighMidEqFreq" LinkParamName="HMF Freq"
+                LinkParamLegend="HMF Freq" LinkInverted="0">
+      <HOSTED_PARAM HostedParamIndex="10" HostedParamId="1828361206" HostedParamName="HMF Freq"/>
+    </LINK_PARAM>
+  </VALUE>
+  <VALUE name="HighMidEqQ">
+    <LINK_PARAM LinkParamIndex="13" LinkParamId="HighMidEqQ" LinkParamName="HMF Q"
+                LinkParamLegend="HMF Q" LinkInverted="0">
+      <HOSTED_PARAM HostedParamIndex="11" HostedParamId="99394483" HostedParamName="HMF Q"/>
+    </LINK_PARAM>
+  </VALUE>
+  <VALUE name="EqIn">
+    <LINK_PARAM LinkParamIndex="15" LinkParamId="EqIn" LinkParamName="EQ In"
+                LinkParamLegend="EQ In" LinkInverted="0">
+      <HOSTED_PARAM HostedParamIndex="1" HostedParamId="96736850" HostedParamName="EQ In"/>
+    </LINK_PARAM>
+  </VALUE>
+  <VALUE name="LowMidEqGain">
+    <LINK_PARAM LinkParamIndex="16" LinkParamId="LowMidEqGain" LinkParamName="LMF Gain"
+                LinkParamLegend="LMF Gain" LinkInverted="0">
+      <HOSTED_PARAM HostedParamIndex="6" HostedParamId="209681529" HostedParamName="LMF Gain"/>
+    </LINK_PARAM>
+  </VALUE>
+  <VALUE name="LowMidEqFreq">
+    <LINK_PARAM LinkParamIndex="17" LinkParamId="LowMidEqFreq" LinkParamName="LMF Freq"
+                LinkParamLegend="LMF Freq" LinkInverted="0">
+      <HOSTED_PARAM HostedParamIndex="7" HostedParamId="209667954" HostedParamName="LMF Freq"/>
+    </LINK_PARAM>
+  </VALUE>
+  <VALUE name="LowMidEqQ">
+    <LINK_PARAM LinkParamIndex="18" LinkParamId="LowMidEqQ" LinkParamName="LMF Q"
+                LinkParamLegend="LMF Q" LinkInverted="0">
+      <HOSTED_PARAM HostedParamIndex="8" HostedParamId="103088567" HostedParamName="LMF Q"/>
+    </LINK_PARAM>
+  </VALUE>
+  <VALUE name="LowEqGain">
+    <LINK_PARAM LinkParamIndex="20" LinkParamId="LowEqGain" LinkParamName="LF Gain"
+                LinkParamLegend="LF Gain" LinkInverted="0">
+      <HOSTED_PARAM HostedParamIndex="2" HostedParamId="77222692" HostedParamName="LF Gain"/>
+    </LINK_PARAM>
+  </VALUE>
+  <VALUE name="LowEqFreq">
+    <LINK_PARAM LinkParamIndex="19" LinkParamId="LowEqFreq" LinkParamName="LF Freq"
+                LinkParamLegend="LF Freq" LinkInverted="0">
+      <HOSTED_PARAM HostedParamIndex="3" HostedParamId="77209117" HostedParamName="LF Freq"/>
+    </LINK_PARAM>
+  </VALUE>
+  <VALUE name="HighEqGain">
+    <LINK_PARAM LinkParamIndex="9" LinkParamId="HighEqGain" LinkParamName="HF Gain"
+                LinkParamLegend="HF Gain" LinkInverted="0">
+      <HOSTED_PARAM HostedParamIndex="12" HostedParamId="822175264" HostedParamName="HF Gain"/>
+    </LINK_PARAM>
+  </VALUE>
+  <VALUE name="HighEqFreq">
+    <LINK_PARAM LinkParamIndex="10" LinkParamId="HighEqFreq" LinkParamName="HF Freq"
+                LinkParamLegend="HF Freq" LinkInverted="0">
+      <HOSTED_PARAM HostedParamIndex="13" HostedParamId="822161689" HostedParamName="HF Freq"/>
+    </LINK_PARAM>
+  </VALUE>
+  <VALUE name="LowPassFreq">
+    <LINK_PARAM LinkParamIndex="6" LinkParamId="LowPassFreq" LinkParamName="Low Pass Filter"
+                LinkParamLegend="HF Q" LinkInverted="0">
+      <HOSTED_PARAM HostedParamIndex="14" HostedParamId="3199344" HostedParamName="HF Q"/>
+    </LINK_PARAM>
+  </VALUE>
+  <VALUE name="HighPassFreq">
+    <LINK_PARAM LinkParamIndex="7" LinkParamId="HighPassFreq" LinkParamName="High Pass Filter"
+                LinkParamLegend="LF Q" LinkInverted="0">
+      <HOSTED_PARAM HostedParamIndex="4" HostedParamId="3318508" HostedParamName="LF Q"/>
+    </LINK_PARAM>
+  </VALUE>
+  <VALUE name="CompRatio">
+    <LINK_PARAM LinkParamIndex="26" LinkParamId="CompRatio" LinkParamName="Comp Ratio"
+                LinkParamLegend="Ratio" LinkInverted="0">
+      <HOSTED_PARAM HostedParamIndex="18" HostedParamId="1245551323" HostedParamName="Ratio"/>
+    </LINK_PARAM>
+  </VALUE>
+  <VALUE name="CompThreshold">
+    <LINK_PARAM LinkParamIndex="27" LinkParamId="CompThreshold" LinkParamName="Comp Threshold"
+                LinkParamLegend="Threshold" LinkInverted="0">
+      <HOSTED_PARAM HostedParamIndex="17" HostedParamId="2036942651" HostedParamName="Threshold"/>
+    </LINK_PARAM>
+  </VALUE>
+  <VALUE name="CompRelease">
+    <LINK_PARAM LinkParamIndex="28" LinkParamId="CompRelease" LinkParamName="Comp Release"
+                LinkParamLegend="Attack" LinkInverted="0">
+      <HOSTED_PARAM HostedParamIndex="19" HostedParamId="1635712376" HostedParamName="Attack"/>
+    </LINK_PARAM>
+  </VALUE>
+  <VALUE name="GateRange">
+    <LINK_PARAM LinkParamIndex="29" LinkParamId="GateRange" LinkParamName="Gate Range"
+                LinkParamLegend="Release" LinkInverted="0">
+      <HOSTED_PARAM HostedParamIndex="20" HostedParamId="933428951" HostedParamName="Release"/>
+    </LINK_PARAM>
+  </VALUE>
+  <VALUE name="CompFastAttack">
+    <LINK_PARAM LinkParamIndex="24" LinkParamId="CompFastAttack" LinkParamName="Comp Fast Attack"
+                LinkParamLegend="Auto Release" LinkInverted="0">
+      <HOSTED_PARAM HostedParamIndex="21" HostedParamId="1432189095" HostedParamName="Auto Release"/>
+    </LINK_PARAM>
+  </VALUE>
+  <VALUE name="DynamicsIn">
+    <LINK_PARAM LinkParamIndex="22" LinkParamId="DynamicsIn" LinkParamName="Dynamics In"
+                LinkParamLegend="Dyn In" LinkInverted="0">
+      <HOSTED_PARAM HostedParamIndex="16" HostedParamId="830549349" HostedParamName="Dyn In"/>
+    </LINK_PARAM>
+  </VALUE>
+  <VALUE name="GateRelease">
+    <LINK_PARAM LinkParamIndex="31" LinkParamId="GateRelease" LinkParamName="Gate Release"
+                LinkParamLegend="SC HPF" LinkInverted="0">
+      <HOSTED_PARAM HostedParamIndex="26" HostedParamId="2134718751" HostedParamName="SC HPF"/>
+    </LINK_PARAM>
+  </VALUE>
+  <VALUE name="GateThreshold">
+    <LINK_PARAM LinkParamIndex="30" LinkParamId="GateThreshold" LinkParamName="Gate Threshold"
+                LinkParamLegend="Knee" LinkInverted="0">
+      <HOSTED_PARAM HostedParamIndex="22" HostedParamId="732719219" HostedParamName="Knee"/>
+    </LINK_PARAM>
+  </VALUE>
+  <VALUE name="GateHold">
+    <LINK_PARAM LinkParamIndex="32" LinkParamId="GateHold" LinkParamName="Gate Hold"
+                LinkParamLegend="Mix" LinkInverted="0">
+      <HOSTED_PARAM HostedParamIndex="25" HostedParamId="1547658540" HostedParamName="Mix"/>
+    </LINK_PARAM>
+  </VALUE>
+  <VALUE name="Compression Meter">
+    <METER_ASSIGNMENT HostedSourceMeterIndex="0" HostedSourceMeterName="Gain Reduction"
+                      LinkDestinationMeterIndex="0" LinkedMeterOffset="0.0"/>
+  </VALUE>
+</PROPERTIES>

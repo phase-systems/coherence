@@ -1,0 +1,12 @@
+build/
+.build-tools/
+__pycache__/
+*.pyc
+.DS_Store
+references/
+mac-results/proc3-clean/*.npz
+build-pkg/
+dist/
+.vscode/
+.idea/
+*.swp

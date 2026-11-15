@@ -1,0 +1,7 @@
+highshelf B Q=0.350 done 188s
+highshelf B Q=0.626 done 354s
+highshelf B resuming: 2 of 4 Q values already done
+highshelf B Q=1.119 done 182s
+highshelf B Q=2.000 done 372s
+finished
+exit 0

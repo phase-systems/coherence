@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<installer-gui-script minSpecVersion="2">
+    <title>COHERENCE @VERSION@</title>
+    <organization>com.phasesystems</organization>
+    <domains enable_localSystem="true" enable_anywhere="false" enable_currentUserHome="false"/>
+    <options customize="allow" require-scripts="false" rootVolumeOnly="true" hostArchitectures="arm64,x86_64"/>
+    <allowed-os-versions><os-version min="11.0"/></allowed-os-versions>
+    <welcome file="welcome.html" mime-type="text/html"/>
+    <license file="LICENSE.txt" mime-type="text/plain"/>
+    <conclusion file="conclusion.html" mime-type="text/html"/>
+    <script><![CDATA[
+function has360Link() {
+    return system.files.fileExistsAtPath('/Library/Application Support/SSL/SSLPlugins/SSL360Link');
+}
+]]></script>
+    <choices-outline>
+        <line choice="au"/>
+        <line choice="vst3"/>
+        <line choice="profile"/>
+    </choices-outline>
+    <choice id="au" title="Audio Unit (AU)" description="For Logic Pro, Ableton Live, GarageBand and other AU hosts. Installs COHERENCE.component in /Library/Audio/Plug-Ins/Components.">
+        <pkg-ref id="com.phasesystems.coherence.pkg.au"/>
+    </choice>
+    <choice id="vst3" title="VST3" description="For Ableton Live, Cubase, Reaper, Bitwig and other VST3 hosts, and for SSL 360 Link. Installs COHERENCE.vst3 in /Library/Audio/Plug-Ins/VST3.">
+        <pkg-ref id="com.phasesystems.coherence.pkg.vst3"/>
+    </choice>
+    <choice id="profile" title="SSL 360 Link profile (UC1 and UF1)" description="Only if you control plug-ins with an SSL UC1 or UF1 through SSL 360 Link. Selected automatically when SSL 360 Link is installed. Replaces any COHERENCE profile already there." start_selected="has360Link()">
+        <pkg-ref id="com.phasesystems.coherence.pkg.profile"/>
+    </choice>
+    <pkg-ref id="com.phasesystems.coherence.pkg.au" version="@VERSION@" onConclusion="none">au.pkg</pkg-ref>
+    <pkg-ref id="com.phasesystems.coherence.pkg.vst3" version="@VERSION@" onConclusion="none">vst3.pkg</pkg-ref>
+    <pkg-ref id="com.phasesystems.coherence.pkg.profile" version="@VERSION@" onConclusion="none">profile.pkg</pkg-ref>
+</installer-gui-script>
